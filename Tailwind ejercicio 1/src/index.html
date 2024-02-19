@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Frontend Mentor | Results summary component</title>
+  <link rel="stylesheet" href="output.css">
+</head>
+<body class="sm:grid place-content-center min-h-screen">
+
+  <main>
+
+    <div class="max-w-2xl sm:shadow-2xl sm:shadow-light-lavender/80 sm:mx-4 sm:grid sm:grid-cols-2 sm:rounded-3xl">
+      <div class="grid content-start items-center justify-center text-center gap-4 text-light-lavender result py-8 px-16 bg-gradient-to-b from-light-slate-blue to-light-royal-blue rounded-b-3xl sm:rounded-3xl">
+        <h1 class="text-xl">Your Result</h1>
+
+        <p class="w-32 mx-auto aspect-square bg-gradient-to-b from-violet-blue to-persian-blue rounded-full grid place-content-center">
+          <span class="text-5xl text-white font-bold">76</span> <span class="opacity-70">of 100</span>
+        </p>
+
+        <h2 class="text-2xl text-white font-semibold">Great</h2>
+        <p>You scored higher than 65% of the people who have taken these tests.</p>
+      </div>
+
+      <div class="p-8 grid content-start gap-6">
+        <h1 class="text-xl text-dark-gray-blue font-bold">Summary</h1>
+
+        <div class="grid gap-4">
+          <div>
+            <div class="rounded-lg p-2 bg-accent-light-red/10 flex justify-between">
+              <div class="flex gap-2 items-center">
+                <img src="./assets/images/icon-reaction.svg" alt="" />
+                <p class="text-accent-light-red">Reaction</p>
+              </div>
+              <p class="text-dark-gray-blue font-bold">80 <span class="opacity-40">/ 100</span></p>
+            </div>
+          </div>
+
+          <div>
+            <div class="rounded-lg p-2 bg-accent-orangey-yellow/10 flex justify-between">
+              <div class="flex gap-2 items-center">
+                <img src="./assets/images/icon-memory.svg" alt="" />
+                <p class="text-accent-orangey-yellow">Memory</p>
+              </div>
+              <p class="text-dark-gray-blue font-bold">92 <span class="opacity-40">/ 100</span></p>
+            </div>
+          </div>
+
+          <div>
+            <div class="rounded-lg p-2 bg-accent-green-teal/10 flex justify-between">
+              <div class="flex gap-2 items-center">
+                <img src="./assets/images/icon-verbal.svg" alt="" />
+                <p class="text-accent-green-teal">Verbal</p>
+              </div>
+              <p class="text-dark-gray-blue font-bold">61 <span class="opacity-40">/ 100</span></p>
+            </div>
+          </div>
+
+          <div>
+            <div class="rounded-lg p-2 bg-accent-cobalt-blue/10 flex justify-between">
+              <div class="flex gap-2 items-center">
+                <img src="./assets/images/icon-visual.svg" alt="" />
+                <p class="text-accent-cobalt-blue">Visual</p>
+              </div>
+              <p class="text-dark-gray-blue font-bold">72 <span class="opacity-40">/ 100</span></p>
+            </div>
+          </div>
+
+        </div>
+
+        <button class="bg-dark-gray-blue p-3 text-white rounded-full hover:bg-[#4338CA] transition duration-300">Continue</button>
+
+      </div>
+
+
+    </div>
+  </main>
+</body>
+</html>
